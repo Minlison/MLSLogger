@@ -1,0 +1,6 @@
+framework module MLSLogger {
+  umbrella header "MLSLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B3BB00000200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B3BB000001F0 /* Foundation.framework */; };
+		22B3BB00000210 /* MLSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3BB000000D0 /* MLSLogger.m */; };
+		22B3BB00000220 /* MLSLoggerLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3BB000000F0 /* MLSLoggerLock.m */; };
+		22B3BB00000230 /* MLSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3BB000000C0 /* MLSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B3BB00000240 /* MLSLoggerLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3BB000000E0 /* MLSLoggerLock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22B3BB00000250 /* MLSLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3BB00000100 /* MLSLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22B3BB000002A0 /* MLSLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3BB00000290 /* MLSLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B3BB000002E0 /* MLSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B3BB000002D0 /* MLSLogger-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B3BB00000300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B3BB000002F0 /* CocoaLumberjack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 85392ABCB5967FC7F189FA544F4E883D;
+			remoteInfo = CocoaLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B3BB000000C0 /* MLSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLSLogger.h; path = Classes/MLSLogger.h; sourceTree = "<group>"; };
+		22B3BB000000D0 /* MLSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLSLogger.m; path = Classes/MLSLogger.m; sourceTree = "<group>"; };
+		22B3BB000000E0 /* MLSLoggerLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLSLoggerLock.h; path = Classes/MLSLoggerLock.h; sourceTree = "<group>"; };
+		22B3BB000000F0 /* MLSLoggerLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLSLoggerLock.m; path = Classes/MLSLoggerLock.m; sourceTree = "<group>"; };
+		22B3BB00000100 /* MLSLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLSLogMacros.h; path = Classes/MLSLogMacros.h; sourceTree = "<group>"; };
+		22B3BB00000120 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22B3BB00000130 /* MLSLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MLSLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22B3BB00000140 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		22B3BB000001F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		22B3BB00000270 /* MLSLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MLSLogger.xcconfig; sourceTree = "<group>"; };
+		22B3BB00000280 /* MLSLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MLSLogger.modulemap; sourceTree = "<group>"; };
+		22B3BB00000290 /* MLSLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLSLogger-umbrella.h"; sourceTree = "<group>"; };
+		22B3BB000002B0 /* MLSLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MLSLogger-Info.plist"; sourceTree = "<group>"; };
+		22B3BB000002C0 /* MLSLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MLSLogger-prefix.pch"; sourceTree = "<group>"; };
+		22B3BB000002D0 /* MLSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MLSLogger-dummy.m"; sourceTree = "<group>"; };
+		22B3BB000002F0 /* CocoaLumberjack */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaLumberjack; path = CocoaLumberjack.xcodeproj; sourceTree = "<group>"; };
+		75E3E5BB959368DF1E0C0720F64B252B /* MLSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MLSLogger.framework; path = MLSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B3BB000001C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B3BB00000200 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B3BB00000010 = {
+			isa = PBXGroup;
+			children = (
+				22B3BB000000A0 /* Dependencies */,
+				22B3BB00000060 /* Frameworks */,
+				22B3BB000000B0 /* MLSLogger */,
+				22B3BB00000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B3BB00000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E3E5BB959368DF1E0C0720F64B252B /* MLSLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B3BB00000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB000001E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22B3BB000000A0 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB000002F0 /* CocoaLumberjack */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		22B3BB000000B0 /* MLSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB000000C0 /* MLSLogger.h */,
+				22B3BB000000D0 /* MLSLogger.m */,
+				22B3BB000000E0 /* MLSLoggerLock.h */,
+				22B3BB000000F0 /* MLSLoggerLock.m */,
+				22B3BB00000100 /* MLSLogMacros.h */,
+				22B3BB00000110 /* Pod */,
+				22B3BB00000260 /* Support Files */,
+			);
+			name = MLSLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		22B3BB00000110 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB00000120 /* LICENSE */,
+				22B3BB00000130 /* MLSLogger.podspec */,
+				22B3BB00000140 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		22B3BB000001E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB000001F0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		22B3BB00000260 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B3BB00000280 /* MLSLogger.modulemap */,
+				22B3BB00000270 /* MLSLogger.xcconfig */,
+				22B3BB000002D0 /* MLSLogger-dummy.m */,
+				22B3BB000002B0 /* MLSLogger-Info.plist */,
+				22B3BB000002C0 /* MLSLogger-prefix.pch */,
+				22B3BB00000290 /* MLSLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "MLSLoggerDemo/Pods/Target Support Files/MLSLogger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22B3BB000001A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B3BB000002A0 /* MLSLogger-umbrella.h in Headers */,
+				22B3BB00000230 /* MLSLogger.h in Headers */,
+				22B3BB00000240 /* MLSLoggerLock.h in Headers */,
+				22B3BB00000250 /* MLSLogMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		822B2FCF6EC22DE7C41D06E93C76723D /* MLSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B3BB00000160 /* Build configuration list for PBXNativeTarget "MLSLogger" */;
+			buildPhases = (
+				22B3BB000001A0 /* Headers */,
+				22B3BB000001B0 /* Sources */,
+				22B3BB000001C0 /* Frameworks */,
+				22B3BB000001D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B3BB00000310 /* PBXTargetDependency */,
+			);
+			name = MLSLogger;
+			productName = MLSLogger;
+			productReference = 75E3E5BB959368DF1E0C0720F64B252B /* MLSLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B3BB00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 22B3BB00000030 /* Build configuration list for PBXProject "MLSLogger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22B3BB00000010;
+			productRefGroup = 22B3BB00000020 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 22B3BB000002F0 /* CocoaLumberjack */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				822B2FCF6EC22DE7C41D06E93C76723D /* MLSLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B3BB000001D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B3BB000001B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B3BB000002E0 /* MLSLogger-dummy.m in Sources */,
+				22B3BB00000210 /* MLSLogger.m in Sources */,
+				22B3BB00000220 /* MLSLoggerLock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B3BB00000310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			targetProxy = 22B3BB00000300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22B3BB00000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		22B3BB00000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		22B3BB00000170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B3BB00000270 /* MLSLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLSLogger/MLSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLSLogger/MLSLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MLSLogger/MLSLogger.modulemap";
+				PRODUCT_MODULE_NAME = MLSLogger;
+				PRODUCT_NAME = MLSLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22B3BB00000180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B3BB00000270 /* MLSLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MLSLogger/MLSLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MLSLogger/MLSLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MLSLogger/MLSLogger.modulemap";
+				PRODUCT_MODULE_NAME = MLSLogger;
+				PRODUCT_NAME = MLSLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B3BB00000030 /* Build configuration list for PBXProject "MLSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B3BB00000040 /* Debug */,
+				22B3BB00000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B3BB00000160 /* Build configuration list for PBXNativeTarget "MLSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B3BB00000180 /* Debug */,
+				22B3BB00000170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B3BB00000000 /* Project object */;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MLSLogger",
+  "version": "1.0.0",
+  "summary": "模块化日志管理工具",
+  "description": "模块化日志管理工具",
+  "homepage": "https://github.com/Minlison/MLSLogger.git",
+  "license": "MIT",
+  "authors": {
+    "Minlison": "yuanhang.1991@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "source": {
+    "git": "https://github.com/Minlison/MLSLogger.git",
+    "tag": "v1.0.0"
+  },
+  "documentation_url": "https://www.minlison.cn/article/mlslogger",
+  "source_files": "Classes/**/*.{h,m}",
+  "public_header_files": "Classes/**/MLSLogger.h",
+  "requires_arc": true,
+  "dependencies": {
+    "CocoaLumberjack": [
+      ">= 3.5.2"
+    ]
+  }
+}
