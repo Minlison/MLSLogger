@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                     模块化日志管理工具， 统一配置处理日志，减少项目内垃圾代码
                    DESC
 
-  s.homepage     = "https://github.com/Minlison/MLSLogger.git"
+  s.homepage     = "https://www.minlison.cn"
   s.license      = "MIT"
   s.author             = { "Minlison" => "yuanhang.1991@163.com" }
   s.platform     = :ios, "8.0"
